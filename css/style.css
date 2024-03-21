@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+body {
+  background-color: #d4d4d4;
+  font-family: "ubuntu";
+}
+
+p {
+  font-size: 1.3em;
+  color: white;
+}
+
+header {
+  background-color: #b2d9c4;
+}
+header button,
+header a {
+  height: 55px;
+  background-color: #44916f;
+  border: none;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 55px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+header nav {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+header .head {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.install-btn:active {
+  background-color: #0b304f;
+}
+
+/* Почта */
+.block {
+  background-color: #80b9c8;
+  padding: 20px;
+}

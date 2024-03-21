@@ -1,0 +1,29 @@
+nav .contact {
+  background-color: #247d7f;
+  -webkit-box-shadow: 5px 5px 30px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px 12px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  bottom: 35%;
+  position: absolute;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+main img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+main .main-txt-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 10px 0;
+}
